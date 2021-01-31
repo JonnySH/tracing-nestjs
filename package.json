@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "version": "rm -rf ./dist && npm run format && npm run build && git add -A src dist"
+    "version": "rm -rf ./dist && npm run build && git add -A src dist"
   },
   "keywords": [],
   "author": "",
