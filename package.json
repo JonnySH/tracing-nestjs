@@ -2,7 +2,7 @@
   "name": "tracing-nestjs",
   "version": "1.0.2",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
