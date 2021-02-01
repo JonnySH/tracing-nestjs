@@ -913,7 +913,7 @@
       },
       "./src/index.ts": {
         "version": "dde0a3e1b4395d24a38b4544980aa4f155b17c7bbe7f5d156c6f1bbbd1a10399",
-        "signature": "4edca8a7f8f32b31fddf0f5a47b716a79c4759321c76cbfdfcc7109948140a2e",
+        "signature": "9ffd218fa55e90968305365589ba0cf81f0893263c76958b52b3fccc2ab68eaa",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash/common/common.d.ts": {
@@ -994,9 +994,7 @@
       "outDir": "./dist",
       "rootDir": "./src",
       "strict": true,
-      "esModuleInterop": true,
       "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
       "skipLibCheck": true,
       "configFilePath": "./tsconfig.json"
     },

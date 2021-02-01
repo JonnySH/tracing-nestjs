@@ -4,7 +4,6 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "prebuild": "rimraf dist",
     "build": "tsc",
     "version": "npm run build && git add -A src dist"
   },
