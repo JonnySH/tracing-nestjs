@@ -911,6 +911,11 @@
         "signature": "96e53e9d9235f16c9777b4dc72e9069adee51163c10a1aa002de15a818b7af72",
         "affectsGlobalScope": false
       },
+      "./src/index.ts": {
+        "version": "dde0a3e1b4395d24a38b4544980aa4f155b17c7bbe7f5d156c6f1bbbd1a10399",
+        "signature": "4edca8a7f8f32b31fddf0f5a47b716a79c4759321c76cbfdfcc7109948140a2e",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/lodash/common/common.d.ts": {
         "version": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
         "signature": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
@@ -980,18 +985,12 @@
         "version": "b81f1e33dbe83e9cc1a093ee635f1c358480536ebe53f30e2f9ecf47bc354ce3",
         "signature": "b81f1e33dbe83e9cc1a093ee635f1c358480536ebe53f30e2f9ecf47bc354ce3",
         "affectsGlobalScope": false
-      },
-      "./src/index.ts": {
-        "version": "c2e70e4036a01db0889d75562a71d34a7652ff0fca542d3636288ec9e5f87721",
-        "signature": "4edca8a7f8f32b31fddf0f5a47b716a79c4759321c76cbfdfcc7109948140a2e",
-        "affectsGlobalScope": false
       }
     },
     "options": {
       "incremental": true,
       "target": 4,
       "module": 1,
-      "declaration": true,
       "sourceMap": true,
       "outDir": "./dist",
       "rootDir": "./src",
@@ -1782,8 +1781,7 @@
         "./node_modules/@opentelemetry/core/build/src/index.d.ts",
         "./node_modules/@opentelemetry/exporter-jaeger/build/src/index.d.ts",
         "./node_modules/@opentelemetry/node/build/src/index.d.ts",
-        "./node_modules/@opentelemetry/tracing/build/src/index.d.ts",
-        "./node_modules/@types/lodash.get/index.d.ts"
+        "./node_modules/@opentelemetry/tracing/build/src/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -2760,19 +2758,7 @@
       "./node_modules/@types/node/wasi.d.ts",
       "./node_modules/@types/node/worker_threads.d.ts",
       "./node_modules/@types/node/zlib.d.ts",
-      [
-        "./src/index.ts",
-        [
-          {
-            "file": "./src/index.ts",
-            "start": 456,
-            "length": 12,
-            "messageText": "This module can only be referenced with ECMAScript imports/exports by turning on the 'esModuleInterop' flag and referencing its default export.",
-            "category": 1,
-            "code": 2497
-          }
-        ]
-      ]
+      "./src/index.ts"
     ]
   },
   "version": "4.1.3"
